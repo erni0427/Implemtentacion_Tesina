@@ -1,7 +1,7 @@
 from scipy.integrate import odeint
 import numpy as np
 import matplotlib.pyplot as plt
-from stomach import dStomach_dt
+from digestion_model.stomach import dStomach_dt
 
 t = np.linspace(0, 24, 1000)        # tiempo en horas
 S0 = 0.0                            # masa inicial en el estómago (kg)
