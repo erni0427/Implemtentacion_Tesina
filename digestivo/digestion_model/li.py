@@ -84,3 +84,4 @@ def dLI_dt(state: list[float], t: float) -> list[float]:
     dCH4 -= CH4 * k_li
 
     return [dDP, dEP, dNAPN, dST, dDDF, dLD, dSU, dFA, dAA, dVFA, dCO2, dCH4, dMM]
+
